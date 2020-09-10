@@ -1,0 +1,30 @@
+.chatroom {
+  display: block;
+  margin-right: 16px;
+}
+
+.chatroom-column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chatroom__photo {
+  width: 25px;
+  height: 25px;
+  border-radius: 38%;
+  background-color: red;
+  margin: 2px;
+}
+
+.chatroom__photo .img1 {
+  background-image: url(images/soojin.JPG);
+}
+
+.chatroom__content {
+  display: flex;
+}
+
+.friend__name-number {
+  margin-left: 10px;
+  opacity: 0.5;
+}

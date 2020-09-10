@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat | Kakao Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body class="chats-body">
+    <div class="header-wrapper">
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span class="status-bar__clock">13:53</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="fas fa-clock"></i>
+          <i class="fas fa-volume-mute"></i>
+          <i class="fas fa-wifi"></i>
+          <span class="status-bar__battery-level">100%</span>
+          <i class="fas fa-battery-full"></i>
+        </div>
+      </div>
+      <header class="header">
+        <div class="header__header-column">
+          <a href="index.html" class="header__back-btn">
+            <i class="fas fa-arrow-left"></i>
+          </a>
+          <h1 class="header__title">Won</h1>
+        </div>
+        <div class="header__header-column">
+          <span class="header__icon">
+            <i class="fas fa-search"></i>
+          </span>
+          <span class="header__icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </div>
+      </header>
+    </div>
+    <main class="chat-screen">
+      <main class="chat">
+        <ul class="chat__messages">
+          <span class="chat__timestamp"> Tuesday, May 26, 2020 </span>
+          <li class="incoming-message message">
+            <img src="images/avatar.jpg" class="g-avatar message__avatar" />
+            <div class="message__content">
+              <span class="message__author">Won</span>
+              <div class="message__time">
+                <span class="message__bubble"> Where R U? </span>
+                <span class="message__time time">20:30</span>
+              </div>
+            </div>
+          </li>
+          <li class="sent-message message">
+            <div class="message__content">
+              <div class="message__time">
+                <span class="message__time time">20:31</span>
+                <span class="message__bubble"> Going home! </span>
+              </div>
+            </div>
+          </li>
+          <li class="incoming-message message">
+            <img src="images/avatar.jpg" class="g-avatar message__avatar" />
+            <div class="message__content">
+              <span class="message__author">Won</span>
+              <div class="message__time">
+                <span class="message__bubble"> OK </span>
+                <span class="message__time time">20:31</span>
+              </div>
+            </div>
+          </li>
+          <li class="sent-message message">
+            <div class="message__content">
+              <div class="message__time">
+                <div class="message__unread">
+                  <span class="message__unread unread">1</span>
+                  <span class="message__time time unread">20:35</span>
+                </div>
+                <span class="message__bubble"> See ya ;D </span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </main>
+    </main>
+    <class class="chat__write--container">
+      <input
+        type="text"
+        class="chat__write"
+        placeholder="Send message"
+        class="chat__write-input"
+      />
+      <div class="chat__icon-left chat__icon">
+        <i class="far fa-plus-square"></i>
+      </div>
+      <div class="chat__icon-right chat__icon">
+        <span class="chat__write-icon">
+          <i class="far fa-smile-wink"></i>
+        </span>
+        <span class="chat__write-icon">
+          <i class="fas fa-microphone"></i>
+        </span>
+      </div>
+    </class>
+    <div class="bigScreen">
+      <span class="bigScreen__text">Please make your screen small 🙏🏻</span>
+    </div>
+  </body>
+</html>
